@@ -17,5 +17,9 @@
              (cube-root-iter (improve guess x)
                         x)))
 
+(define (round-decimal places num)
+   (let ((x (expt 10.0 places)))
+    (/ (round (* x num)) x)))
+
 (define (cube-root x)
-        (cube-root-iter 1.00 x))
+        (round-decimal 2 (cube-root-iter 1.00 x)))
