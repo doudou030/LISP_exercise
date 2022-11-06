@@ -1,0 +1,10 @@
+(define (mod a b) (modulo a b))
+
+(define (expmod b n m)
+    (define (*mod a b) (mod (* a b) m))
+    (define (square x) (* x x) )
+    (define (iter res b n)  
+        (cond ((= n 0) res)
+            ((even? n) (iter res (mod (square b) m) (/ n 2)))
+        (else (iter (*mod b res) b (- n 1)))))
+    (iter 1 b n))
