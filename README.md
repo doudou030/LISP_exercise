@@ -11,5 +11,15 @@
 
  recursive(迴圈) and linear iterative(迭代)
  
- 
- 
+### **exer5**
+
+linear-iterative expmod
+
+### **exer6**
+
+filtered accumulate
+
+### **exer7**
+
+calculating continued-fraction
+
