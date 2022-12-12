@@ -23,3 +23,18 @@ filtered accumulate
 
 calculating continued-fraction
 
+### **exer8**
+
+representing a pair with a number
+
+### **exer9**
+
+handling variable number of arguments
+
+### **exer10**
+
+converting a tree to a list in preorder
+ 
+### **exer11**
+
+enumerating tuples
