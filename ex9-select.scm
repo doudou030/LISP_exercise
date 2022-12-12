@@ -1,0 +1,17 @@
+(define (select f a . xn)
+  (define (f-iter a L)
+    (cond ((null? L) L)
+      	  ((f a (car L)) (cons (car L) (f-iter a (cdr L))))
+          (else (f-iter a (cdr L)))))	
+  (f-iter a xn))
+
+; same-parity 
+(define (same-parity a . L)
+  (let ((same-parity? (if (odd? a) odd? even?)))
+    (define (same-parity-iter yn)
+      (cond ((null? yn) yn)
+            ((same-parity? (car yn))
+             (cons (car yn)
+                   (same-parity-iter (cdr yn))))
+            (else (same-parity-iter (cdr yn)))))
+    (same-parity-iter (cons a L))))
