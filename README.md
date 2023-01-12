@@ -38,3 +38,11 @@ converting a tree to a list in preorder
 ### **exer11**
 
 enumerating tuples
+
+### **exer12**
+
+extending the deriving procedure
+
+### **exer13**
+
+monitor a function
