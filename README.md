@@ -46,3 +46,21 @@ extending the deriving procedure
 ### **exer13**
 
 monitor a function
+
+## Reference
+[題目](http://erdos.csie.ncnu.edu.tw/~klim/scheme/lisp-1111.html)
+| Exercise | score |
+|:--------:|:-----:|
+|  exer1   |  100  |
+|  exer2   |  100  |
+|  exer3   |  50   |
+|  exer4   |  100  |
+|  exer5   |  100  |
+|  exer6   |  50   |
+|  exer7   |  100  |
+|  exer8   |   0   |
+|  exer9   |  100  |
+|  exer10  |  30   |
+|  exer11  |  100  |
+|  exer12  |  100  |
+|  exer13  |  80   |
